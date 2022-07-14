@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "745641136147",
+    "project_id": "beauty-28838",
+    "storage_bucket": "beauty-28838.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745641136147:android:6197eaf6f4d7f8c1edafe6",
+        "android_client_info": {
+          "package_name": "com.example.flutternew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745641136147-0cnk7qf1s7e0p4eskiravcukop350o7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAAHDpu4Xkhgr8O8oUiU2j6tby_Z0sDrQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745641136147-0cnk7qf1s7e0p4eskiravcukop350o7g.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "745641136147-7m0f2ljtscsccnc2rqeec7vvbd2u63er.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutternew"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
