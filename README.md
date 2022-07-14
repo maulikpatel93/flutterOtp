@@ -16,6 +16,8 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+
 #Enable API and services find "Android device location" and this is enable access for google console
 #Phone OTP Verify In Flutter : Follow Link https://github.com/proglabs/flutter_firebase_auth
 flutter pub add firebase_auth
