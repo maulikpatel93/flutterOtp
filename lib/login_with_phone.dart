@@ -64,6 +64,7 @@ class _LoginWithPhoneState extends State<LoginWithPhone> {
   void loginWithPhone() async {
     auth.verifyPhoneNumber(
       phoneNumber: phoneController.text,
+      timeout: const Duration(seconds: 60),
       verificationCompleted: (PhoneAuthCredential credential) async {
         await auth.signInWithCredential(credential).then((value){
           print("You are logged in successfully");
@@ -73,12 +74,13 @@ class _LoginWithPhoneState extends State<LoginWithPhone> {
         print(e.message);
       },
       codeSent: (String verificationId, int? resendToken) {
+        print(verificationID);
         otpVisibility = true;
         verificationID = verificationId;
         setState(() {});
       },
       codeAutoRetrievalTimeout: (String verificationId) {
-
+        print(verificationID);
       },
     );
   }

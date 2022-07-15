@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutternew/dropdown_search.dart';
 import 'package:flutternew/login_with_phone.dart';
 import 'firebase_options.dart';
 
@@ -88,6 +89,11 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
+            ElevatedButton(
+                onPressed: () {
+                  Navigator.of(context).push(MaterialPageRoute(builder: (context) => DropdownSearch()));
+                },
+                child: Text("Dropdown search")),
             // ElevatedButton(
             //     onPressed: () {
             //       Navigator.of(context).push(MaterialPageRoute(builder: (context) => LoginWithGoogle()));
