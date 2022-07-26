@@ -16,36 +16,36 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+1. sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
 
 #Enable API and services find "Android device location" and this is enable access for google console
 
 #Phone OTP Verify In Flutter : Follow Link https://github.com/proglabs/flutter_firebase_auth
-flutter pub add firebase_auth
+2. flutter pub add firebase_auth
 
-flutter pub add fluttertoast
+3. flutter pub add fluttertoast
 
-flutter pub add firebase_core
+4. flutter pub add firebase_core
 
-curl -sL https://firebase.tools | bash
+5. curl -sL https://firebase.tools | bash
 
-dart pub global activate flutterfire_cli
+6. dart pub global activate flutterfire_cli
 
-export PATH="$PATH":"$HOME/.pub-cache/bin"
+7. export PATH="$PATH":"$HOME/.pub-cache/bin"
 
-dart pub global activate flutterfire_cli
+8. dart pub global activate flutterfire_cli
 
-firebase login
+9. firebase login
 
-firebase projects:list
+10. firebase projects:list
 
-flutterfire configure --project=beauty-28838
+11. flutterfire configure --project=beauty-28838
 
 #Firebase configuration file lib/firebase_options.dart generated successfully with the following Firebase apps: 
 
-flutterfire --version
+12. flutterfire --version
 
-keytool -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore
+13. keytool -list -v -alias androiddebugkey -keystore ~/.android/debug.keystore
 
 #keystore Password:android  && https://developers.google.com/android/guides/client-auth?authuser=0&hl=en
 
