@@ -21,6 +21,7 @@ samples, guidance on mobile development, and a full API reference.
 #Enable API and services find "Android device location" and this is enable access for google console
 
 #Phone OTP Verify In Flutter : Follow Link https://github.com/proglabs/flutter_firebase_auth
+
 2. flutter pub add firebase_auth
 
 3. flutter pub add fluttertoast
