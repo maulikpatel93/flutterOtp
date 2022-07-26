@@ -21,8 +21,11 @@ sudo apt-get install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
 #Enable API and services find "Android device location" and this is enable access for google console
 #Phone OTP Verify In Flutter : Follow Link https://github.com/proglabs/flutter_firebase_auth
 flutter pub add firebase_auth
+
 flutter pub add fluttertoast
+
 flutter pub add firebase_core
+
 curl -sL https://firebase.tools | bash
 dart pub global activate flutterfire_cli
 export PATH="$PATH":"$HOME/.pub-cache/bin"
